@@ -32,6 +32,15 @@
         </div>
         <!-- Navigation -->
         <div class="responsive"><i class="fa fa-bars"></i></div>
+        <nav>
+            <?php wp_nav_menu([
+                'menu' => 'main-menu',
+                'menu_class' => 'menu-list',
+                'theme_location' => 'main-menu',
+                'container' => ''
+            ]);
+            ?>
+        </nav>
     </header>
     <!-- Header section end -->
 
